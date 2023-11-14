@@ -13,7 +13,7 @@ Bonus: Add Wireframes
 
     - The user should be able to select an answer from the provided options.
 
-2. As a user new to the app, I want to read instructions on how to play, so I can undertsand the rules and features of the game. 
+2. As a user new to the app, I want to read instructions on how to play, so I can understand the rules and features of the game. 
 
     - There should be a "How To Play" section accessible from the home screen. 
 
