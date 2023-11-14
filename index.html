@@ -11,11 +11,31 @@
     <header>
         <h1>Quiz Game</h1>
     </header>
-    <p>Welcome to the game!</p>
+    <p>Welcome!</p>
     <div class="button-container">
         <a href="#" class="button">How to Play</a>
         <a href="#" class="button">Play</a>
         <a href="#" class="button">About Me</a>
+    </div>
+
+    <div id="difficultyModal" class="overlay">
+        <form id="difficultyForm">
+            <div class="modal">
+                <h3>Select Difficulty</h2>
+
+                <label>
+                    <input type="radio" name="difficulty" value="easy" class="modal-difficulty"> Easy
+                </label>
+                <label>
+                    <input type="radio" name="difficulty" value="medium" class="modal-difficulty"> Medium
+                </label>
+                <label>
+                    <input type="radio" name="difficulty" value="hard" class="modal-difficulty"> Hard
+                </label>
+
+                <button type="submit" class="modal-button">Begin!</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
